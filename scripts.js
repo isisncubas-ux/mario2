@@ -17,7 +17,7 @@ const Marioposition = window.getComputedStyle(mario).bottom;
 console.log(MarioPosition)
 if (pipePosition <= 120) {
     pipe.style.animation = 'none';
-    pipe.style.left=´${pipePosition}px´;
+    pipe.style.left=`${pipePosition}px`;
 }
 
 }, 10);
